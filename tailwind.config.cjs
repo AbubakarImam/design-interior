@@ -5,13 +5,14 @@ module.exports = {
   ],
   theme: {
     colors: {
+      white: '#FFFF',
       primary1:'#CDA274',
       primary2:'#292F36',
       primary3:'#F4F0EC',
     },
     fontFamily:{
-      serif: ['DM Serif Display', 'Fraunces'],
-      sansSerif: ['Jost'],
+      serif: ['DM Serif Display'],
+      jost: ['Jost'],
     },
     fontSize:{
       h1: '50px',

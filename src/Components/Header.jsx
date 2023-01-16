@@ -3,7 +3,7 @@ import logo from '../assets/Logo.svg'
 
 const Header = () => {
     return (
-        <div className='sticky top-0 z-50'>
+        <div className='sticky top-0 z-50 bg-white'>
             <header className='flex justify-between items-center py-5 my-6 px-3 max-w-4xl mx-auto'>
                 <div>
                     <img src={logo} alt="logo" />
