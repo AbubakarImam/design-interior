@@ -1,4 +1,4 @@
-import Image from "./photo header.png"
+import Image from "./photoheader.png"
 
 const Header = () => {
     return (
