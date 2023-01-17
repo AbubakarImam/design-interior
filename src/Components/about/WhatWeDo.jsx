@@ -1,5 +1,5 @@
 import { HiArrowRight } from "react-icons/hi"
-import image from "./Photo 11.jpg"
+import image from "./Photo11.jpg"
 import image1 from "./Photo1.jpg"
 
 const WhatWeDo = () => {
