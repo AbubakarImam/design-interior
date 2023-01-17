@@ -13,7 +13,7 @@ const About = () => {
                     </p>
                     <div className="mt-10">
                         <div className="flex gap-3">
-                            <button className="bg-primary3 p-8 rounded-full ">
+                            <button className="bg-primary3 p-8 rounded-full">
                                 <IoCallOutline className="text-h3 text-primary1" />
                             </button>
                             <div>
@@ -21,7 +21,9 @@ const About = () => {
                                 <p className="font-jost text-h4">Call Us Anytime</p>
                             </div>
                         </div>
-                        <button className="bg-primary2 py-[20px] shadow-md px-8 my-8 cursor-pointer rounded-2xl text-primary3 flex justify-center items-center">
+                        <button className="bg-primary2 py-[20px] shadow-md px-8 my-8 cursor-pointer
+                         rounded-2xl text-primary3 flex justify-center items-center
+                         hover:bg-gray-500 transition duration-150 ease-in-out hover:shadow-lg">
                             Get Started
                             <HiArrowRight className="text-primary1 text-h5 ml-1" />
 

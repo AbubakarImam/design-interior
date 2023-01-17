@@ -1,7 +1,7 @@
-import project1 from "./project.png"
-import project2 from "./project2.png"
-import project3 from "./project3.png"
-import project4 from "./project4.png"
+import project1 from "./assets/project.png"
+import project2 from "./assets/project2.png"
+import project3 from "./assets/project3.png"
+import project4 from "./assets/project4.png"
 import { FaChevronRight } from 'react-icons/fa'
 const Projects = () => {
     return (

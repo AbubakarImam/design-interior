@@ -14,7 +14,9 @@ const WhatWeDo = () => {
                             when lookings at its layouts the points of using
                             that it has a more-or-less normal.
                         </p>
-                        <button className="bg-primary2 py-[20px] shadow-md px-8 my-8 cursor-pointer rounded-2xl text-primary3 flex justify-center items-center">
+                        <button className="bg-primary2 py-[20px] shadow-md px-8 my-8 cursor-pointer 
+                        rounded-2xl text-primary3 flex justify-center items-center
+                        hover:bg-gray-500 transition duration-150 ease-in-out hover:shadow-lg">
                             Get Started
                             <HiArrowRight className="text-primary1 text-h5 ml-1" />
 
@@ -30,7 +32,9 @@ const WhatWeDo = () => {
                             when lookings at its layouts the points of using
                             that it has a more-or-less normal.
                         </p>
-                        <button className="bg-primary2 py-[20px] shadow-md px-8 my-8 cursor-pointer rounded-2xl text-primary3 flex justify-center items-center">
+                        <button className="bg-primary2 py-[20px] shadow-md px-8 my-8 cursor-pointer 
+                        rounded-2xl text-primary3 flex justify-center items-center
+                        hover:bg-gray-500 transition duration-150 ease-in-out hover:shadow-lg">
                             Get Started
                             <HiArrowRight className="text-primary1 text-h5 ml-1" />
 

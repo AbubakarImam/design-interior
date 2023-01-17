@@ -23,7 +23,7 @@ const Team = () => {
                     <div className="bg-primary3 rounded-3xl overflow-hidden">
                         <img className="h-full w-full" src={image2} alt="girl pic" />
                     </div>
-                    <div className="flex flex-col justify-between text-center rounded-3xl bg-white p-4 gap-3 items-center">
+                    <div className="flex flex-col justify-between text-center rounded-3xl bg-white p-4 pb-3 gap-3 items-center">
                         <div>
                             <p className="font-jost font-bold">Nattasha Julie</p>
                             <p className="font-jost">Design, Australia</p>

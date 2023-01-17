@@ -1,6 +1,6 @@
-import img1 from "./article1.png"
-import img2 from "./article4.png"
-import img3 from "./article3.png"
+import img1 from "./assets/article1.png"
+import img2 from "./assets/article4.png"
+import img3 from "./assets/article3.png"
 import { FaChevronRight } from 'react-icons/fa'
 
 const Articles = () => {

@@ -6,16 +6,16 @@ const Footer = () => {
     const navigate = useNavigate();
     return (
         <div>
-            <footer className='mt-20 max-w-4xl mx-auto'>
+            <footer className='max-w-4xl mx-auto'>
                 <div className="flex py-10 px-6 mx-auto gap-4 space-x-1">
                     <div className='flex flex-col space-y-0 gap-6 items-start mr-3 px-3'>
-                        <div><img src={logo} alt="logo" className="h-8 cursor-pointer" onClick={() => navigate("/")} /></div>
+                        <div><img src={logo} alt="logo" className="h-10 cursor-pointer" onClick={() => navigate("/")} /></div>
                         <p className="text-h6 font-jost">It is a long established fact that a reader will be distracted lookings.</p>
                         <div className="flex justify-between gap-4">
-                            <FaFacebook className="text-h2" />
-                            <FaTwitter className="text-h2" />
-                            <FaLinkedinIn className="text-h2" />
-                            <FaInstagram className="text-h2" />
+                            <FaFacebook className="text-h2 cursor-pointer" />
+                            <FaTwitter className="text-h2 cursor-pointer" />
+                            <FaLinkedinIn className="text-h2 cursor-pointer" />
+                            <FaInstagram className="text-h2 cursor-pointer" />
                         </div>
                     </div>
                     <div className="flex justify-around space-x-20">
@@ -50,7 +50,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <p className="text-center text-h4">Copyright &copy;,2023 Abubakar Imam</p>
+                <p className="text-center text-xs">Copyright &copy;,2023 Abubakar Imam</p>
             </footer>
         </div>
     )

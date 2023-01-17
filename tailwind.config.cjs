@@ -4,15 +4,16 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    colors: {
+    fontFamily:{
+      serif: ['DM Serif Display'],
+      jost: ['Jost'],
+    },
+    extend: {
+      colors: {
       white: '#FFFF',
       primary1:'#CDA274',
       primary2:'#292F36',
       primary3:'#F4F0EC',
-    },
-    fontFamily:{
-      serif: ['DM Serif Display'],
-      jost: ['Jost'],
     },
     fontSize:{
       h1: '50px',
@@ -22,7 +23,8 @@ module.exports = {
       h5: '20px',
       h6: '18px'
     },
-    extend: {},
+
+    },
   },
   plugins: [],
 }

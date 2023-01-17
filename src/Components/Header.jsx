@@ -37,7 +37,7 @@ const Header = () => {
                             Contact
                         </li>
                     </ul>
-                    <CiSearch className="font-sm cursor-pointer" />
+                    <CiSearch className="cursor-pointer text-lg" />
                 </div>
             </header>
         </div>

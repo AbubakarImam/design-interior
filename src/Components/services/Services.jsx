@@ -1,8 +1,17 @@
 import React from 'react'
+import Contact from './Contact'
+import Header from './Header'
+import Projects from './Projects'
+import Service from './Service'
 
 const Services = () => {
     return (
-        <div>Services</div>
+        <div>
+            <Header />
+            <Service />
+            <Projects />
+            <Contact />
+        </div>
     )
 }
 

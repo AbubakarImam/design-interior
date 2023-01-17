@@ -1,6 +1,6 @@
-import img1 from "./testimonial1.jpg"
-import img2 from "./testimonial2.jpg"
-import img3 from "./testimonial3.jpg"
+import img1 from "./assets/testimonial1.jpg"
+import img2 from "./assets/testimonial2.jpg"
+import img3 from "./assets/testimonial3.jpg"
 
 const Testimonials = () => {
     return (

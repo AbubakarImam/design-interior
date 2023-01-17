@@ -1,8 +1,8 @@
-import logo1 from "./01.svg"
-import logo2 from "./02.svg"
-import logo3 from "./03.svg"
-import logo4 from "./04.svg"
-import logo5 from "./05.svg"
+import logo1 from "./assets/01.svg"
+import logo2 from "./assets/02.svg"
+import logo3 from "./assets/03.svg"
+import logo4 from "./assets/04.svg"
+import logo5 from "./assets/05.svg"
 
 const ClientLogo = () => {
     return (

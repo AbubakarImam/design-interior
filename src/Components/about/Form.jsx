@@ -39,7 +39,8 @@ const Form = () => {
                         value={text} onChange={(e) => setName(e.target.value)}></textarea>
 
                     <button type='submit' className="bg-primary2 py-[20px]  shadow-md px-8 mx-auto mt-14 cursor-pointer
-                     rounded-2xl text-primary3 flex justify-center items-center">
+                     rounded-2xl text-primary3 flex justify-center items-center
+                     hover:bg-gray-500 transition duration-150 ease-in-out hover:shadow-lg">
                         Get Started
                         <HiArrowRight className="text-primary1 text-h5 ml-1" />
 
