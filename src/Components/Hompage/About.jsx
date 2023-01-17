@@ -1,6 +1,6 @@
 import { HiArrowRight } from "react-icons/hi"
 import { IoCallOutline } from "react-icons/io5"
-import photo2 from "../assets/article2.jpg"
+import photo2 from "./assets/article2.jpg"
 
 const About = () => {
     return (
