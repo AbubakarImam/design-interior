@@ -1,6 +1,6 @@
 import Intro from "./Intro"
 import Services from "./ServicesHome"
-import About from "./About.Home"
+import About from "./About"
 import Testimonials from "./Testimonials"
 import ClientLogo from "./ClientLogo"
 import Projects from "./Projects"
