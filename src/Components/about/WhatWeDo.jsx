@@ -16,13 +16,13 @@ const WhatWeDo = () => {
                         </p>
                         <button className="bg-primary2 py-[20px] shadow-md px-8 my-8 cursor-pointer 
                         rounded-2xl text-primary3 flex justify-center items-center
-                        hover:bg-gray-500 transition duration-150 ease-in-out hover:shadow-lg">
+                        hover:bg-gray-500 transition duration-700 ease-in-out hover:shadow-lg">
                             Get Started
                             <HiArrowRight className="text-primary1 text-h5 ml-1" />
 
                         </button>
                     </div>
-                    <div className="rounded-[70px] overflow-hidden"><img className="h-full w-full" src={image} alt="old" /></div>
+                    <div className="rounded-[70px] overflow-hidden"><img className="h-full w-full" src={image} alt="old dirty room" /></div>
                 </div>
                 <div className="flex flex-row-reverse my-6 justify-between px-1 gap-8">
                     <div className='text-justify flex flex-col w-[50%] items-start'>
@@ -34,13 +34,13 @@ const WhatWeDo = () => {
                         </p>
                         <button className="bg-primary2 py-[20px] shadow-md px-8 my-8 cursor-pointer 
                         rounded-2xl text-primary3 flex justify-center items-center
-                        hover:bg-gray-500 transition duration-150 ease-in-out hover:shadow-lg">
+                        hover:bg-gray-500 transition duration-700 ease-in-out hover:shadow-lg">
                             Get Started
                             <HiArrowRight className="text-primary1 text-h5 ml-1" />
 
                         </button>
                     </div>
-                    <div className="rounded-[70px] overflow-hidden"><img className="h-full w-full" src={image1} alt="old" /></div>
+                    <div className="rounded-[70px] overflow-hidden"><img className="h-full w-full" src={image1} alt="new refurbish room" /></div>
                 </div>
             </article>
         </section>

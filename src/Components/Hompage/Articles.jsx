@@ -17,9 +17,10 @@ const Articles = () => {
                 </div>
                 <div className='flex flex-col gap-20 mt-14'>
                     <div className="flex gap-8">
-                        <div className="border-[#E7E7E7] shadow-lg p-4 bg-white rounded-3xl">
+                        <div className="border-[#E7E7E7] shadow-lg p-4 bg-white rounded-3xl
+                        transform transition duration-700 hover:scale-110">
                             <div className="overflow-hidden rounded-t-3xl">
-                                <img src={img1} alt="" />
+                                <img src={img1} alt="kitchen picture" />
                             </div>
                             <div className="flex flex-col mt-4">
                                 <div>
@@ -33,9 +34,10 @@ const Articles = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='border-[#E7E7E7] shadow-lg p-4 bg-primary3 rounded-3xl'>
+                        <div className='border-[#E7E7E7] shadow-lg p-4 bg-primary3 rounded-3xl
+                        transform transition duration-700 hover:scale-110'>
                             <div className="overflow-hidden rounded-t-3xl">
-                                <img src={img2} alt="" />
+                                <img src={img2} alt="kitchen picture" />
                             </div>
                             <div className="flex flex-col mt-4">
                                 <div>
@@ -49,9 +51,10 @@ const Articles = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='border-[#E7E7E7] shadow-lg p-4 bg-white rounded-3xl'>
+                        <div className='border-[#E7E7E7] shadow-lg p-4 bg-white rounded-3xl
+                        transform transition duration-700 hover:scale-110'>
                             <div className="overflow-hidden rounded-t-3xl">
-                                <img src={img3} alt="" />
+                                <img src={img3} alt="kitchen picture" />
                             </div>
                             <div className="flex flex-col mt-4">
                                 <div>

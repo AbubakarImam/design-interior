@@ -19,52 +19,64 @@ const Projects = () => {
                     <div className="flex gap-20">
                         <div className="">
                             <div className="overflow-hidden rounded-tr-[7rem]">
-                                <img src={project1} alt="" />
+                                <img src={project1} alt="chair picture" />
                             </div>
                             <div className="flex items-center justify-between mt-4">
                                 <div>
                                     <h2 className="text-h3 font-serif">Modern Kitchan</h2>
                                     <p className="text-h4 font-serif">Decor / Artchitecture</p>
                                 </div>
-                                <div className="rounded-full bg-primary3 p-4"><FaChevronRight /></div>
+                                <div className="rounded-full bg-primary3 transform 
+                                transition duration-700 hover:bg-slate-400 p-4">
+                                    <FaChevronRight />
+                                </div>
                             </div>
                         </div>
                         <div>
                             <div className="overflow-hidden rounded-tl-[7rem]">
-                                <img src={project2} alt="" />
+                                <img src={project2} alt="chair picture" />
                             </div>
                             <div className="flex items-center justify-between mt-4">
                                 <div>
                                     <h2 className="text-h3 font-serif">Modern Kitchan</h2>
                                     <p className="text-h4 font-serif">Decor / Artchitecture</p>
                                 </div>
-                                <div className="rounded-full bg-primary3 p-4"><FaChevronRight /></div>
+                                <div className="rounded-full bg-primary3 p-4 transform 
+                                transition duration-700 hover:bg-slate-400">
+                                    <FaChevronRight />
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div className="flex gap-20">
                         <div className="">
                             <div className="overflow-hidden rounded-br-[7rem]">
-                                <img src={project3} alt="" />
+                                <img src={project3} alt="chair picture" />
                             </div>
                             <div className="flex items-center justify-between mt-4">
                                 <div>
                                     <h2 className="text-h3 font-serif">Modern Kitchan</h2>
                                     <p className="text-h4 font-serif">Decor / Artchitecture</p>
                                 </div>
-                                <div className="rounded-full bg-primary3 p-4"><FaChevronRight /></div>
+                                <div className="rounded-full bg-primary3 p-4 transform 
+                                transition duration-700 hover:bg-slate-400">
+                                    <FaChevronRight />
+                                </div>
                             </div>
                         </div>
                         <div className="">
                             <div className="overflow-hidden rounded-bl-[7rem]">
-                                <img src={project4} alt="" />
+                                <img src={project4} alt="chair picture" />
                             </div>
                             <div className="flex items-center justify-between mt-4">
                                 <div>
                                     <h2 className="text-h3 font-serif">Modern Kitchan</h2>
                                     <p className="text-h4 font-serif">Decor / Artchitecture</p>
                                 </div>
-                                <div className="rounded-full bg-primary3 p-4"><FaChevronRight /></div>
+                                <div className="rounded-full bg-primary3 p-4 transform 
+                                transition duration-700 hover:bg-slate-400">
+                                    <FaChevronRight />
+                                </div>
                             </div>
                         </div>
                     </div>

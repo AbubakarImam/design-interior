@@ -12,27 +12,33 @@ const Header = () => {
                 </div>
                 <div className=" flex gap-8 items-center">
                     <ul className='flex space-x-8'>
-                        <li className="cursor-pointer font-semibold"
+                        <li className="cursor-pointer font-semibold 
+                        transform transition duration-700 hover:scale-110"
                             onClick={() => navigate("/")}>
                             Home
                         </li>
-                        <li className="cursor-pointer font-semibold"
+                        <li className="cursor-pointer font-semibold
+                        transform transition duration-700 hover:scale-110"
                             onClick={() => navigate("/pages")}>
                             Pages
                         </li>
-                        <li className="cursor-pointer font-semibold"
+                        <li className="cursor-pointer font-semibold
+                        transform transition duration-700 hover:scale-110"
                             onClick={() => navigate("/services")}>
                             Services
                         </li>
-                        <li className="cursor-pointer font-semibold"
+                        <li className="cursor-pointer font-semibold
+                        transform transition duration-700 hover:scale-110"
                             onClick={() => navigate("/project")}>
                             Project
                         </li>
-                        <li className="cursor-pointer font-semibold"
+                        <li className="cursor-pointer font-semibold
+                        transform transition duration-700 hover:scale-110"
                             onClick={() => navigate("/blog")}>
                             Blog
                         </li>
-                        <li className="cursor-pointer font-semibold"
+                        <li className="cursor-pointer font-semibold
+                        transform transition duration-700 hover:scale-110"
                             onClick={() => navigate("/contact")}>
                             Contact
                         </li>

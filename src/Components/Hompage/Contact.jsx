@@ -9,7 +9,7 @@ const Contact = () => {
                 <div className="p6 flex justify-center">
                     <span className="bg-primary1 py-[20px] px-4 drop-shadow-lg shadow-md my-4 cursor-pointer
                      rounded-2xl text-primary3 flex justify-center items-center
-                     hover:bg-orange-300 transition duration-150 ease-in-out hover:shadow-lg">
+                     hover:bg-orange-300 transition duration-700 ease-in-out hover:shadow-lg">
                         Contact with Us
                         <HiArrowRight className="text-primary2  text-h5 ml-1" />
 

@@ -17,7 +17,7 @@ const Team = () => {
                 <div className='flex justify-around space-x-6'>
 
                     <div className="bg-primary3 rounded-3xl overflow-hidden">
-                        <img className="h-full w-full" src={image1} alt="girl pic" />
+                        <img className="h-full w-full" src={image1} alt="man pic" />
                     </div>
 
                     <div className="bg-primary3 rounded-3xl overflow-hidden">

@@ -13,10 +13,11 @@ const Testimonials = () => {
                     </h1>
                 </div>
                 <div className='flex justify-around space-x-6'>
-                    <div className='bg-white rounded-3xl space-y-4 p-4 pb-14'>
+                    <div className='bg-white rounded-3xl space-y-4 p-4 pb-14
+                    transform transition duration-700 hover:scale-110'>
                         <div className="flex gap-3 items-center">
                             <div className="bg-primary3 rounded-full overflow-hidden">
-                                <img className="h-16 w-16" src={img1} alt="girl pic" />
+                                <img className="h-16 w-16" src={img1} alt="girl picture" />
                             </div>
                             <div>
                                 <p className="font-jost font-bold">Nattasha Mith</p>
@@ -29,10 +30,11 @@ const Testimonials = () => {
                             Ipsum has been.
                         </p>
                     </div>
-                    <div className='bg-white rounded-3xl space-y-4 p-4 pb-14'>
+                    <div className='bg-white rounded-3xl space-y-4 p-4 pb-14
+                    transform transition duration-700 hover:scale-110'>
                         <div className="flex gap-3 items-center">
                             <div className="bg-primary3 rounded-full overflow-hidden">
-                                <img className="h-16 w-16" src={img2} alt="girl pic" />
+                                <img className="h-16 w-16" src={img2} alt="girl picture" />
                             </div>
                             <div>
                                 <p className="font-jost font-bold">Raymond Galario</p>
@@ -45,10 +47,11 @@ const Testimonials = () => {
                             Ipsum has been.
                         </p>
                     </div>
-                    <div className='bg-white rounded-3xl space-y-4 p-4 pb-14'>
+                    <div className='bg-white rounded-3xl space-y-4 p-4 pb-14
+                    transform transition duration-700 hover:scale-110'>
                         <div className="flex gap-3 items-center">
                             <div className="bg-primary3 rounded-full overflow-hidden">
-                                <img className="h-16 w-16" src={img3} alt="girl pic" />
+                                <img className="h-16 w-16" src={img3} alt="man picture" />
                             </div>
                             <div>
                                 <p className="font-jost font-bold">Benny Roll</p>
