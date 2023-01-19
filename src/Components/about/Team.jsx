@@ -1,6 +1,6 @@
 import image1 from "./photothree.png"
 import image2 from "./photofour.png"
-import image3 from "./photo.png"
+import image3 from "./photofive.png"
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 
