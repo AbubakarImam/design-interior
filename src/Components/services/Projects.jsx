@@ -3,7 +3,7 @@ import project2 from "./servicetwo.jpg"
 import project3 from "./servicethree.jpg"
 import project4 from "./servicefour.jpg"
 import icon1 from "./icon1.png"
-import icon2 from "./icon12.png"
+import icon2 from "./icon3.png"
 import icon3 from "./icon2.png"
 import icon4 from "./icon4.png"
 import { FaChevronRight } from 'react-icons/fa'
